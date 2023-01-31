@@ -1,12 +1,3 @@
-withCredentials([[
-    $class: 'AmazonWebServicesCredentialsBinding',
-    credentialsId: "iam_user_vijay	",
-    accessKeyVariable: 'AWS_ACCESS_KEY_ID',
-    secretKeyVariable: 'AWS_SECRET_ACCESS_KEY'
-]]) {
-    // AWS Code
-}
-
 pipeline {
   agent any
   stages {
