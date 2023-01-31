@@ -10,6 +10,7 @@ pipeline {
         secretKeyVariable: 'AWS_SECRET_ACCESS_KEY'
     ]])
         { 
+        sh 'pip install boto3'
         sh "python test.py"
           }
     }
