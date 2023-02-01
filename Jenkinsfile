@@ -12,6 +12,7 @@ pipeline {
         { 
         sh 'pip3 install boto3'
         sh "python3 test.py"
+        sh "python3 test2.py"
           }
     }
   }
