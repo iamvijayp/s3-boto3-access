@@ -2,7 +2,7 @@ import boto3
 
 s3 = boto3.client("s3")
 
-bucket_name = "test-boto3-vijay"
+bucket_name = "cloudgalaxyhq123"
 
 # Retrieve a list of objects in the bucket
 response = s3.list_objects(Bucket=bucket_name)
